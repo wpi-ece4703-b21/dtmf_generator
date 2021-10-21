@@ -2,7 +2,7 @@
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
 #include "xlaudio_armdsp.h"
 
-int sinelookup[64] = {
+int sinelookup[64] =  {
       0,  804, 1607, 2410, 3211, 4011, 4807, 5601,
    6392, 7179, 7961, 8739, 9511,10278,11038,11792,
   12539,13278,14009,14732,15446,16150,16845,17530,
