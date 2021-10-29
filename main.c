@@ -84,7 +84,7 @@ uint16_t processSample(uint16_t x) {
     int q = outputsample(dtmfcode / 4, dtmfcode % 4);
 
     // the DTMF sample is mapped to a 500mV peak-to-peak waveform
-    return (8192 + q / 8);
+    return (8192 + q / 16);
 }
 
 #include <stdio.h>
